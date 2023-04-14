@@ -1,6 +1,73 @@
-h1 {
-  background-color: brown;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
 }
-h2 {
-  background-color: yellow;
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--purple500);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, alpha);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+nav li {
+  color: white;
+}
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.3 ease-in-out;
+}
+nav ul li:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3 ease-in-out;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 300px;
+}
+.herosection {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  text-align: center;
+  color: white;
+  background-image: url(../images/hero_image.png);
+}
+.herosection .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
