@@ -71,3 +71,56 @@ nav ul li:hover {
   flex-direction: column;
   gap: 30px;
 }
+.music-section {
+  padding: 50px;
+  background: var(--purple500);
+}
+.music-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.primarybutton {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.ipad {
+  position: relative;
+  top: 400px;
+  margin-top: -400px;
+}
+.about {
+  padding-top: 400px;
+  display: grid;
+  place-items: center;
+
+  gap: 30px;
+}
+.secondary {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.vedio {
+  background-image: url(../images/video.png);
+  color: white;
+  display: grid;
+  place-items: center;
+  min-height: 800px;
+  text-align: center;
+  gap: 10px;
+}
+.sectiongift {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
