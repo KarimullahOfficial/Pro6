@@ -124,3 +124,19 @@ nav ul li:hover {
   margin: 100px 0;
   gap: 50px;
 }
+.footerupper {
+  background-color: #1b0058;
+  padding: 20px;
+}
+.footerupper .container {
+  display: flex;
+  color: white;
+  gap: 50px;
+  justify-content: space-between;
+}
+.footer-loer {
+  width: auto;
+  background-color: #1b0058;
+  color: white;
+  text-align: center;
+}
